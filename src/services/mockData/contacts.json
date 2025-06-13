@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2",
+    "name": "Sarah Johnson",
+    "phone": "+1234567890",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5b2b127?w=150&h=150&fit=crop&crop=face",
+    "status": "online",
+    "lastSeen": 1703025600000
+  },
+  {
+    "id": "3",
+    "name": "Mike Chen",
+    "phone": "+1234567891",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "status": "offline",
+    "lastSeen": 1703024400000
+  },
+  {
+    "id": "4",
+    "name": "Emma Wilson",
+    "phone": "+1234567892",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "status": "online",
+    "lastSeen": 1703025500000
+  },
+  {
+    "id": "5",
+    "name": "David Brown",
+    "phone": "+1234567893",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "status": "offline",
+    "lastSeen": 1703022000000
+  },
+  {
+    "id": "6",
+    "name": "Lisa Garcia",
+    "phone": "+1234567894",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "status": "online",
+    "lastSeen": 1703025700000
+  },
+  {
+    "id": "7",
+    "name": "James Miller",
+    "phone": "+1234567895",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "status": "offline",
+    "lastSeen": 1703021200000
+  },
+  {
+    "id": "8",
+    "name": "Anna Davis",
+    "phone": "+1234567896",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+    "status": "online",
+    "lastSeen": 1703025600000
+  },
+  {
+    "id": "9",
+    "name": "Tom Wilson",
+    "phone": "+1234567897",
+    "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face",
+    "status": "offline",
+    "lastSeen": 1703020000000
+  },
+  {
+    "id": "10",
+    "name": "Rachel Adams",
+    "phone": "+1234567898",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    "status": "online",
+    "lastSeen": 1703025400000
+  },
+  {
+    "id": "11",
+    "name": "Kevin Park",
+    "phone": "+1234567899",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    "status": "offline",
+    "lastSeen": 1703019800000
+  }
+]

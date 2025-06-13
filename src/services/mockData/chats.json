@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "participants": ["me", "2"],
+    "type": "individual",
+    "name": "Sarah Johnson",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5b2b127?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "2",
+    "participants": ["me", "3"],
+    "type": "individual",
+    "name": "Mike Chen",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "3",
+    "participants": ["me", "4"],
+    "type": "individual",
+    "name": "Emma Wilson",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "4",
+    "participants": ["me", "5"],
+    "type": "individual",
+    "name": "David Brown",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "5",
+    "participants": ["me", "6"],
+    "type": "individual",
+    "name": "Lisa Garcia",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "6",
+    "participants": ["me", "7"],
+    "type": "individual",
+    "name": "James Miller",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "7",
+    "participants": ["me", "8"],
+    "type": "individual",
+    "name": "Anna Davis",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "8",
+    "participants": ["me", "9"],
+    "type": "individual",
+    "name": "Tom Wilson",
+    "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    "id": "9",
+    "participants": ["me", "3", "4", "5"],
+    "type": "group",
+    "name": "Work Team",
+    "avatar": null
+  },
+  {
+    "id": "10",
+    "participants": ["me", "6", "7", "9"],
+    "type": "group",
+    "name": "Weekend Plans",
+    "avatar": null
+  }
+]

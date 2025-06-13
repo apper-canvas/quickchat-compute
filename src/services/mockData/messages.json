@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "chatId": "1",
+    "senderId": "2",
+    "content": "Hey! How are you doing?",
+    "timestamp": 1703025600000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "2",
+    "chatId": "1",
+    "senderId": "me",
+    "content": "I'm doing great! Just finished a big project at work. How about you?",
+    "timestamp": 1703025660000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "3",
+    "chatId": "1",
+    "senderId": "2",
+    "content": "That's awesome! I'm just chilling at home, watching some Netflix",
+    "timestamp": 1703025720000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "4",
+    "chatId": "1",
+    "senderId": "me",
+    "content": "Nice! What are you watching?",
+    "timestamp": 1703025780000,
+    "status": "delivered",
+    "type": "text"
+  },
+  {
+    "id": "5",
+    "chatId": "2",
+    "senderId": "3",
+    "content": "Don't forget about the meeting tomorrow at 10 AM",
+    "timestamp": 1703024400000,
+    "status": "sent",
+    "type": "text"
+  },
+  {
+    "id": "6",
+    "chatId": "2",
+    "senderId": "me",
+    "content": "Thanks for the reminder! I'll be there",
+    "timestamp": 1703024460000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "7",
+    "chatId": "3",
+    "senderId": "4",
+    "content": "Check out this photo from my vacation!",
+    "timestamp": 1703023200000,
+    "status": "read",
+    "type": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "8",
+    "chatId": "3",
+    "senderId": "me",
+    "content": "Wow! That looks amazing! Where is this?",
+    "timestamp": 1703023260000,
+    "status": "delivered",
+    "type": "text"
+  },
+  {
+    "id": "9",
+    "chatId": "4",
+    "senderId": "5",
+    "content": "Can you help me with the presentation slides?",
+    "timestamp": 1703022000000,
+    "status": "sent",
+    "type": "text"
+  },
+  {
+    "id": "10",
+    "chatId": "5",
+    "senderId": "6",
+    "content": "Happy birthday! 🎉🎂",
+    "timestamp": 1703021800000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "11",
+    "chatId": "5",
+    "senderId": "me",
+    "content": "Thank you so much! 😊",
+    "timestamp": 1703021860000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "12",
+    "chatId": "6",
+    "senderId": "7",
+    "content": "Let's grab lunch tomorrow",
+    "timestamp": 1703021200000,
+    "status": "sent",
+    "type": "text"
+  },
+  {
+    "id": "13",
+    "chatId": "7",
+    "senderId": "8",
+    "content": "The project deadline has been moved to next Friday",
+    "timestamp": 1703020600000,
+    "status": "sent",
+    "type": "text"
+  },
+  {
+    "id": "14",
+    "chatId": "8",
+    "senderId": "9",
+    "content": "Good morning! Ready for the gym session?",
+    "timestamp": 1703020000000,
+    "status": "read",
+    "type": "text"
+  },
+  {
+    "id": "15",
+    "chatId": "8",
+    "senderId": "me",
+    "content": "Yes! Let's do this 💪",
+    "timestamp": 1703020060000,
+    "status": "read",
+    "type": "text"
+  }
+]

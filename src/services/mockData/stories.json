@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "userId": "2",
+    "userName": "Sarah Johnson",
+    "userAvatar": "https://images.unsplash.com/photo-1494790108755-2616b5b2b127?w=150&h=150&fit=crop&crop=face",
+    "content": "Beautiful sunset at the beach! 🌅",
+    "mediaUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=600&fit=crop",
+    "timestamp": 1703020800000,
+    "views": ["me", "3", "4"]
+  },
+  {
+    "id": "2",
+    "userId": "3",
+    "userName": "Mike Chen",
+    "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "content": "Coffee time ☕",
+    "mediaUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=600&fit=crop",
+    "timestamp": 1703019600000,
+    "views": ["me", "2"]
+  },
+  {
+    "id": "3",
+    "userId": "4",
+    "userName": "Emma Wilson",
+    "userAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "content": "New haircut! What do you think? ✨",
+    "mediaUrl": "https://images.unsplash.com/photo-1562322140-8198e8c3b8ea?w=400&h=600&fit=crop",
+    "timestamp": 1703022400000,
+    "views": ["me", "2", "3", "5"]
+  },
+  {
+    "id": "4",
+    "userId": "5",
+    "userName": "David Brown",
+    "userAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "content": "Mountain hiking adventure! 🏔️",
+    "mediaUrl": "https://images.unsplash.com/photo-1464822759844-d150baec4e84?w=400&h=600&fit=crop",
+    "timestamp": 1703018400000,
+    "views": ["me", "6"]
+  },
+  {
+    "id": "5",
+    "userId": "6",
+    "userName": "Lisa Garcia",
+    "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "content": "Delicious homemade pasta 🍝",
+    "mediaUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400&h=600&fit=crop",
+    "timestamp": 1703024000000,
+    "views": ["me", "7", "8"]
+  },
+  {
+    "id": "6",
+    "userId": "2",
+    "userName": "Sarah Johnson",
+    "userAvatar": "https://images.unsplash.com/photo-1494790108755-2616b5b2b127?w=150&h=150&fit=crop&crop=face",
+    "content": "Good morning workout! 💪",
+    "mediaUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop",
+    "timestamp": 1703017200000,
+    "views": ["me", "9"]
+  },
+  {
+    "id": "7",
+    "userId": "9",
+    "userName": "Tom Wilson",
+    "userAvatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face",
+    "content": "Late night coding session 💻",
+    "mediaUrl": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=600&fit=crop",
+    "timestamp": 1703021600000,
+    "views": ["me"]
+  },
+  {
+    "id": "8",
+    "userId": "8",
+    "userName": "Anna Davis",
+    "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+    "content": "Book recommendation of the week 📚",
+    "mediaUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
+    "timestamp": 1703023200000,
+    "views": ["me", "2", "4"]
+  }
+]
