@@ -67,8 +67,9 @@ class MessageService {
       setTimeout(() => {
         resolve({ chatId, senderId, typing: false })
       }, 2000)
+}, 2000)
     })
   }
 }
 
-export default new MessageService()
+export const messageService = new MessageService()

@@ -57,8 +57,8 @@ class ContactService {
       throw new Error('Contact not found')
     }
     this.contacts.splice(contactIndex, 1)
-    return { success: true }
+return { success: true }
   }
 }
 
-export default new ContactService()
+export const contactService = new ContactService()

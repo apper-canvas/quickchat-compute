@@ -81,8 +81,8 @@ class StoryService {
       throw new Error('Story not found')
     }
     this.stories.splice(storyIndex, 1)
-    return { success: true }
+return { success: true }
   }
 }
 
-export default new StoryService()
+export const storyService = new StoryService()
