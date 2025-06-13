@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { toast } from 'react-toastify'
 import ChatMessages from '@/components/organisms/ChatMessages'
 import MessageInput from '@/components/molecules/MessageInput'
+import CallInterface from '@/components/organisms/CallInterface'
 import Avatar from '@/components/atoms/Avatar'
 import Button from '@/components/atoms/Button'
 import ApperIcon from '@/components/ApperIcon'
@@ -14,6 +15,9 @@ const ChatDetailPage = () => {
   const navigate = useNavigate()
   const [chat, setChat] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [isInCall, setIsInCall] = useState(false)
+  const [isMuted, setIsMuted] = useState(false)
+  const [isSpeakerOn, setIsSpeakerOn] = useState(false)
 
   useEffect(() => {
     loadChat()
@@ -42,12 +46,60 @@ const ChatDetailPage = () => {
     navigate('/chats')
   }
 
-  const handleCall = () => {
-    toast.info('Voice call feature coming soon!')
+const handleCall = async () => {
+    try {
+      await chatService.startCall(chatId, 'voice')
+      setIsInCall(true)
+      setIsMuted(false)
+      setIsSpeakerOn(false)
+      toast.success('Call started')
+    } catch (error) {
+      toast.error('Failed to start call')
+    }
   }
 
-  const handleVideoCall = () => {
-    toast.info('Video call feature coming soon!')
+  const handleVideoCall = async () => {
+    try {
+      await chatService.startCall(chatId, 'video')
+      setIsInCall(true)
+      setIsMuted(false)
+      setIsSpeakerOn(false)
+      toast.success('Video call started')
+    } catch (error) {
+      toast.error('Failed to start video call')
+    }
+  }
+
+  const handleEndCall = async () => {
+    try {
+      await chatService.endCall(chatId)
+      setIsInCall(false)
+      setIsMuted(false)
+      setIsSpeakerOn(false)
+      toast.success('Call ended')
+    } catch (error) {
+      toast.error('Failed to end call')
+    }
+  }
+
+  const handleToggleMute = async () => {
+    try {
+      await chatService.toggleMute(chatId)
+      setIsMuted(!isMuted)
+      toast.success(isMuted ? 'Unmuted' : 'Muted')
+    } catch (error) {
+      toast.error('Failed to toggle mute')
+    }
+  }
+
+  const handleToggleSpeaker = async () => {
+    try {
+      await chatService.toggleSpeaker(chatId)
+      setIsSpeakerOn(!isSpeakerOn)
+      toast.success(isSpeakerOn ? 'Speaker off' : 'Speaker on')
+    } catch (error) {
+      toast.error('Failed to toggle speaker')
+    }
   }
 
   if (loading) {
@@ -75,8 +127,23 @@ const ChatDetailPage = () => {
     )
   }
 
-  return (
+return (
     <div className="h-full flex flex-col bg-background">
+      {/* Call Interface Overlay */}
+      {isInCall && chat && (
+        <CallInterface
+          contact={{
+            name: chat.name,
+            avatar: chat.avatar
+          }}
+          onEndCall={handleEndCall}
+          onToggleMute={handleToggleMute}
+          onToggleSpeaker={handleToggleSpeaker}
+          isMuted={isMuted}
+          isSpeakerOn={isSpeakerOn}
+        />
+      )}
+
       {/* Chat Header */}
       <header className="flex-shrink-0 bg-secondary text-white p-4 flex items-center gap-3">
         <Button
@@ -111,6 +178,7 @@ const ChatDetailPage = () => {
             variant="ghost"
             size="icon"
             className="text-white hover:bg-white/10"
+            disabled={isInCall}
           >
             <ApperIcon name="Phone" size={20} />
           </Button>
@@ -119,6 +187,7 @@ const ChatDetailPage = () => {
             variant="ghost"
             size="icon"
             className="text-white hover:bg-white/10"
+            disabled={isInCall}
           >
             <ApperIcon name="Video" size={20} />
           </Button>

@@ -97,3 +97,48 @@ body {
 .story-progress {
   background: linear-gradient(to right, #25D366 0%, #25D366 var(--progress, 0%), rgba(255,255,255,0.3) var(--progress, 0%));
 }
+
+/* Call interface animations */
+.call-pulse {
+  animation: call-pulse 2s ease-in-out infinite;
+}
+
+@keyframes call-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+.call-button-active {
+  animation: call-button-glow 0.3s ease-out;
+}
+
+@keyframes call-button-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.call-connecting {
+  animation: call-connecting 1.5s ease-in-out infinite;
+}
+
+@keyframes call-connecting {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
